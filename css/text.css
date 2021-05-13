@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+body{
+  background: url(../img/grizzy.jpeg);
+  background-size:cover;
+  object-fit:contain;
+  min-height: 100vh;
+}

@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/* 背景画像のレイアウト */
+body{
+  background: url(../img/grizzy.jpeg);
+  background-size:cover;
+  object-fit:contain;
+  min-height: 100vh;
+}
+
+/* ９つのcircle部分レイアウト */
+.main_box{
+  padding-top: 200px; 
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}  
+
+/* circle部分の小さい線を消す処理 */
+a { 
+  text-decoration: none;
+ }
+
+ .letter{
+  color: white;
+  font-size: 40px;
+  font-family: 'Londrina Shadow', cursive;
+  text-shadow:
+   0 2px 0 #888,
+   0 3px 0 #888,
+   0 4px 5px #333;
+ }
+
+/* キャラクター図鑑の画像 */
+.picturebook{
+  background: url(../img/picturebook.png);
+  background-size:contain;
+  width:130px;
+  height:90px;
+  margin-left: 290px;
+  background-size:cover;
+  display:inline-block; 
+  justify-content:flex-end;
+}
+
+/* キャラクター図鑑の？ */
+.question{
+  color:whitesmoke;
+  font-family: 'Londrina Shadow', cursive;
+  text-shadow:
+    0 2px 0 #888,
+    0 3px 0 #888,
+    0 4px 5px #333;
+  text-shadow: black;
+  padding-top: 15px;
+  font-size: 50px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
